@@ -24,7 +24,7 @@ async function registerUser(req, res) {
 function verifyParams(userData) {
     // TODO: Verify email format, trim whitespace
     const { email, password: pw } = userData;
-    if (!email) throw { statusCode: 406, msg: "Invalid email format"};
+    if (!email || !pw) throw { statusCode: 406, msg: "Invalid email format"};
     else if (email === "" || pw === "") throw { statusCode: 406, msg: "Email/password cannot be empty" };
     else return { email, pw };
 }
