@@ -95,7 +95,7 @@ function getEmailAccount(email) {
         Users.findOne({email},(err, data) =>{
                 if (err) reject(err);
                 else if (data === null) reject({statusCode: 401, msg: "Unsuccessful login"});
-                else resolve({_id, email, pwHash: data.pwHash });
+                else resolve({_id:data._id, pwHash: data.pwHash });
             }
         );
     });
