@@ -1,0 +1,26 @@
+{
+  "name": "asyncawaitapi",
+  "version": "1.0.0",
+  "description": "***Accounts & Authentication API using async/await***",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/relloller/AsyncAwaitAPI.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/relloller/AsyncAwaitAPI/issues"
+  },
+  "homepage": "https://github.com/relloller/AsyncAwaitAPI#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "bcrypt": "^2.0.1",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.4.0",
+    "mongoose": "^5.3.12"
+  }
+}
