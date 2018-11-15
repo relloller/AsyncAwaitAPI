@@ -17,10 +17,11 @@
   },
   "homepage": "https://github.com/relloller/AsyncAwaitAPI#readme",
   "dependencies": {
-    "body-parser": "^1.18.3",
     "bcrypt": "^2.0.1",
+    "body-parser": "^1.18.3",
     "express": "^4.16.4",
     "jsonwebtoken": "^8.4.0",
+    "mocha": "^5.2.0",
     "mongoose": "^5.3.12"
   }
 }
